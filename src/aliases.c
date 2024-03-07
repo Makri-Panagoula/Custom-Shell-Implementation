@@ -1,4 +1,4 @@
-#include "alias.h"
+#include "../headers/alias.h"
 
 //Creates an alias array with capacity size 
 alias_info init(int capacity) {

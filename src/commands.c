@@ -1,4 +1,4 @@
-#include "commands.h"
+#include "../headers/commands.h"
 
 //Inserts p string in arguments array and properly updates its capacity and number
 char** insert(char** arg,int *num ,int *capacity,char* p , int* wildcard, glob_t* globbuf,int* globs) {

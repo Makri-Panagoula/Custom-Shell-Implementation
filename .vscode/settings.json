@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "alias.h": "c",
+        "commands.h": "c",
+        "redirections.h": "c"
+    }
+}

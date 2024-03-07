@@ -1,10 +1,10 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "alias.h"
 #include <glob.h>
 #include <errno.h>
 #include <unistd.h>
+#include "../headers/alias.h"
 
 #pragma once
 

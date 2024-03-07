@@ -8,7 +8,7 @@
 #include <sys/wait.h>
 #include <string.h>
 #include <unistd.h>
-#include "commands.h"
+#include "../headers/commands.h"
 
 #pragma once
 

@@ -1,4 +1,4 @@
-#include "redirections.h"
+#include "../headers/redirections.h"
 
 //Redirects output aka handles '>' symbol
 void redirect_output(const char* file){

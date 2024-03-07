@@ -2,8 +2,8 @@
 #include <sys/mman.h>
 #include <signal.h>
 #include <sys/shm.h>
-#include "redirections.h"
-#include "commands.h"
+#include "../headers/redirections.h"
+#include "../headers/commands.h"
 
 int pending_signal = 0;
 

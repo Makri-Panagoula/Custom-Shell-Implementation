@@ -1,14 +1,18 @@
+# Paths
+SRC = ./src
+HEADERS = ../headers
+
 # Compiler
 CC = gcc
 
 # Compile Options
-CFLAGS = -Wall -Werror -I -g
+CFLAGS = -Wall -Werror -I -g -I$(HEADERS)
 
 # Executable
 EXEC = mysh
 
 # Object files 
-OBJ = aliases.o redirections.o commands.o mysh.o
+OBJ = $(SRC)/aliases.o $(SRC)/redirections.o $(SRC)/commands.o $(SRC)/mysh.o
 
 all: $(EXEC)
 
